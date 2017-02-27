@@ -1,0 +1,97 @@
+﻿  Main.cpp
+d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(148): warning C4018: '>=': signed と unsigned の数値を比較しようとしました。
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(135): note: クラス テンプレート のメンバー関数 'std::unordered_set<const std::vector<double,std::allocator<_Ty>> *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>> LSH::LSHClass<double>::query(const std::vector<_Ty,std::allocator<_Ty>> &) const' のコンパイル中
+          with
+          [
+              _Ty=double,
+              _Kty=const std::vector<double,std::allocator<double>> *
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\main.cpp(18): note: コンパイル対象の関数 テンプレート インスタンス化 'std::unordered_set<const std::vector<double,std::allocator<_Ty>> *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>> LSH::LSHClass<double>::query(const std::vector<_Ty,std::allocator<_Ty>> &) const' のリファレンスを確認してください
+          with
+          [
+              _Ty=double,
+              _Kty=const std::vector<double,std::allocator<double>> *
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\main.cpp(10): note: コンパイル対象のクラス テンプレート インスタンス化 'LSH::LSHClass<double>' のリファレンスを確認してください
+c:\program files\microsoft visual studio 14.0\vc\include\numeric(52): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+  c:\program files\microsoft visual studio 14.0\vc\include\numeric(83): note: コンパイル対象の関数 テンプレート インスタンス化 '_Ty std::_Inner_product<_InIt1,_InIt2,_Ty,_Fn21,_Fn22>(_InIt1,_InIt1,_InIt2,_Ty,_Fn21,_Fn22)' のリファレンスを確認してください
+          with
+          [
+              _Ty=int,
+              _InIt1=const double *,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn21=std::plus<void>,
+              _Fn22=std::multiplies<void>
+          ]
+  c:\program files\microsoft visual studio 14.0\vc\include\numeric(115): note: コンパイル対象の関数 テンプレート インスタンス化 '_Ty std::_Inner_product2<const double*,_InIt2,_Ty,_Fn21,_Fn22>(_InIt1,_InIt1,_InIt2,_Ty,_Fn21,_Fn22,std::true_type)' のリファレンスを確認してください
+          with
+          [
+              _Ty=int,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn21=std::plus<void>,
+              _Fn22=std::multiplies<void>,
+              _InIt1=const double *
+          ]
+  c:\program files\microsoft visual studio 14.0\vc\include\numeric(144): note: コンパイル対象の関数 テンプレート インスタンス化 '_Ty std::inner_product<_InIt1,_InIt2,_Ty,std::plus<void>,std::multiplies<void>>(_InIt1,_InIt1,_InIt2,_Ty,_Fn21,_Fn22)' のリファレンスを確認してください
+          with
+          [
+              _Ty=int,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn21=std::plus<void>,
+              _Fn22=std::multiplies<void>
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(51): note: コンパイル対象の関数 テンプレート インスタンス化 '_Ty std::inner_product<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt1,_InIt1,_InIt2,_Ty)' のリファレンスを確認してください
+          with
+          [
+              _Ty=int,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(50): note: クラス テンプレート のメンバー関数 'int LSH::H<T>::operator ()(const std::vector<double,std::allocator<_Ty>> &) const' のコンパイル中
+          with
+          [
+              T=double,
+              _Ty=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(87): note: コンパイル対象の関数 テンプレート インスタンス化 'int LSH::H<T>::operator ()(const std::vector<double,std::allocator<_Ty>> &) const' のリファレンスを確認してください
+          with
+          [
+              T=double,
+              _Ty=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(87): note: コンパイル対象のクラス テンプレート インスタンス化 'LSH::H<T>' のリファレンスを確認してください
+          with
+          [
+              T=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(81): note: クラス テンプレート のメンバー関数 'LSH::lshHash LSH::G<DataType>::operator ()(const std::vector<double,std::allocator<_Ty>> &) const' のコンパイル中
+          with
+          [
+              DataType=double,
+              _Ty=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(140): note: コンパイル対象の関数 テンプレート インスタンス化 'LSH::lshHash LSH::G<DataType>::operator ()(const std::vector<double,std::allocator<_Ty>> &) const' のリファレンスを確認してください
+          with
+          [
+              DataType=double,
+              _Ty=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(140): note: コンパイル対象のクラス テンプレート インスタンス化 'LSH::G<DataType>' のリファレンスを確認してください
+          with
+          [
+              DataType=double
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\lsh.h(135): note: クラス テンプレート のメンバー関数 'std::unordered_set<const std::vector<double,std::allocator<_Ty>> *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>> LSH::LSHClass<double>::query(const std::vector<_Ty,std::allocator<_Ty>> &) const' のコンパイル中
+          with
+          [
+              _Ty=double,
+              _Kty=const std::vector<double,std::allocator<double>> *
+          ]
+  d:\documents\github\nearestneighbor\lsh\lsh\main.cpp(18): note: コンパイル対象の関数 テンプレート インスタンス化 'std::unordered_set<const std::vector<double,std::allocator<_Ty>> *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>> LSH::LSHClass<double>::query(const std::vector<_Ty,std::allocator<_Ty>> &) const' のリファレンスを確認してください
+          with
+          [
+              _Ty=double,
+              _Kty=const std::vector<double,std::allocator<double>> *
+          ]
+  LSH.vcxproj -> D:\Documents\GitHub\MachineLearning\ReinforcementLearning\QLearning\Debug\LSH.exe
